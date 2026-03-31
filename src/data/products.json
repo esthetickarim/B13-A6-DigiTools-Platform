@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "SEO Toolkit Pro",
+    "category": "Marketing",
+    "price": 29,
+    "rating": 4.9,
+    "reviews": 120,
+    "image": "https://i.ibb.co/seo-tool.png",
+    "description": "All-in-one SEO optimization toolkit for websites."
+  },
+  {
+    "id": 2,
+    "name": "Social Media Scheduler",
+    "category": "Marketing",
+    "price": 19,
+    "rating": 4.8,
+    "reviews": 95,
+    "image": "https://i.ibb.co/social-tool.png",
+    "description": "Schedule and automate your social media posts."
+  },
+  {
+    "id": 3,
+    "name": "UI Design Assets Pack",
+    "category": "Design",
+    "price": 49,
+    "rating": 4.7,
+    "reviews": 88,
+    "image": "https://i.ibb.co/design-assets.png",
+    "description": "Premium UI kits, icons, and templates."
+  },
+  {
+    "id": 4,
+    "name": "Code Snippet Manager",
+    "category": "Development",
+    "price": 15,
+    "rating": 4.6,
+    "reviews": 60,
+    "image": "https://i.ibb.co/code-snippet.png",
+    "description": "Store and organize reusable code snippets."
+  },
+  {
+    "id": 5,
+    "name": "Website Analytics Dashboard",
+    "category": "Analytics",
+    "price": 39,
+    "rating": 4.9,
+    "reviews": 140,
+    "image": "https://i.ibb.co/analytics.png",
+    "description": "Track visitors and performance metrics easily."
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Suite",
+    "category": "Marketing",
+    "price": 25,
+    "rating": 4.7,
+    "reviews": 110,
+    "image": "https://i.ibb.co/email-tool.png",
+    "description": "Create and manage email campaigns."
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Invoice Generator",
+    "category": "Business",
+    "price": 12,
+    "rating": 4.5,
+    "reviews": 70,
+    "image": "https://i.ibb.co/invoice.png",
+    "description": "Generate professional invoices instantly."
+  },
+  {
+    "id": 8,
+    "name": "Password Manager Secure",
+    "category": "Security",
+    "price": 20,
+    "rating": 4.8,
+    "reviews": 130,
+    "image": "https://i.ibb.co/password.png",
+    "description": "Store and manage passwords safely."
+  },
+  {
+    "id": 9,
+    "name": "Online Course Builder",
+    "category": "Education",
+    "price": 59,
+    "rating": 4.9,
+    "reviews": 150,
+    "image": "https://i.ibb.co/course.png",
+    "description": "Create and sell online courses بسهولة."
+  },
+  {
+    "id": 10,
+    "name": "Cloud Storage Manager",
+    "category": "Productivity",
+    "price": 35,
+    "rating": 4.6,
+    "reviews": 85,
+    "image": "https://i.ibb.co/cloud.png",
+    "description": "Manage files across multiple cloud platforms."
+  }
+]

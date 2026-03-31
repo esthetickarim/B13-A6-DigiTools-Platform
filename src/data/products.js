@@ -1,69 +1,93 @@
 const products = [
   {
     id: 1,
-    name: "Resume Builder Pro",
-    description: "Create ATS-friendly resumes with beautiful templates.",
-    price: 49,
+    name: "Design Toolkit",
+    description: "Professional UI/UX design templates.",
+    price: 29,
     period: "one-time",
     tag: "Popular",
-    tagType: "badge-primary",
-    features: ["100+ templates", "ATS optimization", "Export to PDF"],
-    icon: "/assets/products/writing_23274001.png"
+    tagType: "popular",
+    features: [
+      "100+ templates",
+      "Figma ready",
+      "Export assets"
+    ],
+    icon: "/assets/products/design-tool.png"
   },
   {
     id: 2,
-    name: "Portfolio Kit",
-    description: "Build a stunning developer or designer portfolio quickly.",
-    price: 29,
-    period: "one-time",
+    name: "Portfolio Builder",
+    description: "Create stunning portfolios easily.",
+    price: 19,
+    period: "monthly",
     tag: "New",
-    tagType: "badge-secondary",
-    features: ["Responsive layouts", "Dark mode", "Easy customization"],
+    tagType: "new",
+    features: [
+      "Custom themes",
+      "Responsive design",
+      "SEO ready"
+    ],
     icon: "/assets/products/portfolio.png"
   },
   {
     id: 3,
-    name: "Social Media Pack",
-    description: "Ready-to-use templates for social media growth.",
-    price: 19,
-    period: "monthly",
+    name: "Social Media Kit",
+    description: "Templates for social platforms.",
+    price: 25,
+    period: "yearly",
     tag: "Best Seller",
-    tagType: "badge-accent",
-    features: ["Instagram templates", "Facebook ads", "Content planner"],
+    tagType: "best",
+    features: [
+      "Instagram templates",
+      "Facebook covers",
+      "Ads design"
+    ],
     icon: "/assets/products/social-media.png"
   },
   {
     id: 4,
-    name: "E-Commerce Starter",
-    description: "Launch your online store with essential tools.",
-    price: 59,
-    period: "yearly",
+    name: "Writing Tools",
+    description: "Content writing assistant pack.",
+    price: 15,
+    period: "monthly",
     tag: "Popular",
-    tagType: "badge-primary",
-    features: ["Cart UI", "Product pages", "Checkout flow"],
-    icon: "/assets/products/shopping-cart.png"
+    tagType: "popular",
+    features: [
+      "Grammar check",
+      "SEO tools",
+      "Content templates"
+    ],
+    icon: "/assets/products/writing_23274001.png"
   },
   {
     id: 5,
-    name: "Design Tool Bundle",
-    description: "Premium design assets and UI kits for modern websites.",
-    price: 39,
-    period: "one-time",
+    name: "Operation Manager",
+    description: "Manage workflow effectively.",
+    price: 40,
+    period: "yearly",
     tag: "New",
-    tagType: "badge-secondary",
-    features: ["UI kits", "Icons", "Landing page blocks"],
-    icon: "/assets/products/design-tool.png"
+    tagType: "new",
+    features: [
+      "Task tracking",
+      "Analytics",
+      "Reports"
+    ],
+    icon: "/assets/products/operation.png"
   },
   {
     id: 6,
-    name: "Operations Toolkit",
-    description: "Manage tasks, workflows, and team operations easily.",
+    name: "Shopping Toolkit",
+    description: "Ecommerce template pack.",
     price: 35,
-    period: "monthly",
+    period: "one-time",
     tag: "Best Seller",
-    tagType: "badge-accent",
-    features: ["Workflow boards", "Task tracking", "Productivity tools"],
-    icon: "/assets/products/operation.png"
+    tagType: "best",
+    features: [
+      "Cart UI",
+      "Checkout UI",
+      "Dashboard layout"
+    ],
+    icon: "/assets/products/shopping-cart.png"
   }
 ];
 
