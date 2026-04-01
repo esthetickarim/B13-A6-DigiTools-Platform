@@ -18,3 +18,7 @@ Key Features
 1. Add to Cart Functionality
 Users can add products to the cart with instant toast notifications. Duplicate items are prevented with warning alerts.
 
+
+2. Remove & Checkout System
+Users can remove individual products from the cart or clear all items using the "Proceed to Checkout" button.
+
