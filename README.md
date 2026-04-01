@@ -21,6 +21,26 @@ Key Features
 3. Product & Cart Toggle
   A toggle system allows users to switch between product view and cart view dynamically, with real-time cart count updates.
 
+Live Preview
+> 
+
+---
+
+Project Setup
+
+ > bash
+ > Clone the repository
+git clone https://github.com/esthetickarim/B13-A6-DigiTools-Platform.git
+
+>> Go to project folder
+  cd B13-A6-DigiTools-Platform
+
+>>Install dependencies
+npm install
+
+>> Run the project
+ npm run dev
+
 ---
 
 
