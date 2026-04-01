@@ -16,9 +16,14 @@ Vite (for fast development)
 Key Features
 
 1. Add to Cart Functionality
-Users can add products to the cart with instant toast notifications. Duplicate items are prevented with warning alerts.
-
-
+  Users can add products to the cart with instant toast notifications. Duplicate items are prevented with warning alerts.
 2. Remove & Checkout System
+3. Product & Cart Toggle
+  A toggle system allows users to switch between product view and cart view dynamically, with real-time cart count updates.
+
+---
+
+
+
 Users can remove individual products from the cart or clear all items using the "Proceed to Checkout" button.
 
