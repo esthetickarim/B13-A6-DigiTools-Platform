@@ -12,3 +12,9 @@ JavaScript (ES6+)
 React-Toastify (for alerts & notifications)
 JSON (for product data)
 Vite (for fast development)
+
+Key Features
+
+1. Add to Cart Functionality
+Users can add products to the cart with instant toast notifications. Duplicate items are prevented with warning alerts.
+
