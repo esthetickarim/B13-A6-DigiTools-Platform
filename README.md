@@ -22,7 +22,7 @@ Key Features
   A toggle system allows users to switch between product view and cart view dynamically, with real-time cart count updates.
 
 Live Preview
-> 
+> sprightly-cassata-2163e0.netlify.app
 
 ---
 
