@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 const ProductCard = ({ product, handleAddToCart }) => {
 
   const [added, setAdded] = useState(false);
@@ -11,31 +10,49 @@ const ProductCard = ({ product, handleAddToCart }) => {
   };
 
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-lg border border-gray-100 p-4 relative">
 
-      <figure>
-        <img src={product.icon} className="w-16 mt-4" />
-      </figure>
+      {/* Tag Badge */}
+      {product.tagType && (
+        <span className="absolute top-3 right-3 text-xs px-3 py-1 bg-purple-100 text-purple-700 rounded-full">
+          {product.tagType}
+        </span>
+      )}
 
-      <div className="card-body">
+      {/* Icon */}
+      <div className="flex justify-start mb-2">
+        <img src={product.icon} alt={product.name} className="w-10 h-10" />
+      </div>
 
-        <h2 className="card-title">{product.name}</h2>
+      <div className="card-body p-0">
 
-        <p>{product.description}</p>
+        {/* Name */}
+        <h2 className="card-title text-lg font-semibold">
+          {product.name}
+        </h2>
 
-        <p className="font-bold text-primary">
-          ${product.price} / {product.period}
+        {/* Description */}
+        <p className="text-gray-500 text-sm">
+          {product.description}
         </p>
 
-        <ul className="text-sm">
+        {/* Price */}
+        <p className="text-xl font-bold mt-2">
+          ${product.price}
+          <span className="text-sm text-gray-400"> / {product.period}</span>
+        </p>
+
+        {/* Features */}
+        <ul className="mt-3 space-y-1 text-sm text-gray-600">
           {product.features.map((f, i) => (
             <li key={i}>✔ {f}</li>
           ))}
         </ul>
 
+        {/* Button */}
         <button
           onClick={handleClick}
-          className="btn btn-primary mt-3"
+          className="mt-4 w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-lg"
         >
           {added ? "Added ✔" : "Buy Now"}
         </button>
@@ -46,3 +63,5 @@ const ProductCard = ({ product, handleAddToCart }) => {
 };
 
 export default ProductCard;
+
+
